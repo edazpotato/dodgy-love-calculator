@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Dodgy love calculator</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
 </head>
 <body class="page">
     <header class="header">
@@ -14,15 +15,18 @@
 	</header>
 	<main class="main">
 		<section class="app" id="app">
-			<form class="inputs" id="input">
-				<aside class="name-input">
-					<input class="name-input--input" type="text" id="name-1" />
-          <label class="name-input--label" for="name-1">Name of person A</label>
-        </aside>
-        <aside class="name-input">
-					<input class="name-input--input" type="text" id="name-2" />
-          <label class="name-input--label" for="name-2">Name of person B</label>
-        </aside>
+			<form class="form" id="input">
+        <section class="inputs">
+  				<aside class="name-input">
+  					<input class="name-input--input" type="text" id="name-1" required />
+            <label class="name-input--label" for="name-1">Name of person A</label>
+          </aside>
+          <aside class="name-input">
+  					<input class="name-input--input" type="text" id="name-2" required />
+            <label class="name-input--label" for="name-2">Name of person B</label>
+          </aside>
+        </section>
+        <input class="submit" type="submit" value="Calculate">
 			</form>
 			<article class="output" id="output">
 			</article>
