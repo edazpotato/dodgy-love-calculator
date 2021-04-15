@@ -21,7 +21,7 @@ function setup() {
 		//var percent = Math.floor(Math.random() * 100) + 1;
 		var rng = new Math.seedrandom(name1+name2);
 		var percent = Math.round((rng()*100)+1);
-		var html = '<img class="output--image" src="heart.png" /><h3 class="output--names">'+name1+' & '+name2+'</h3><p class="output--text">are</p><h2 class="output--percent">'+percent+'%</h2><p class="output--text">compatible!</p>'
+		var html = '<img class="output--image heartbeat" src="heart.png" /><h3 class="output--names">'+name1+' & '+name2+'</h3><p class="output--text">are</p><h2 class="output--percent">'+percent+'%</h2><p class="output--text">compatible!</p>'
 		output.innerHTML = html;
 	});
 }
