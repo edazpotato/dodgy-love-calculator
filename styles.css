@@ -91,6 +91,7 @@ html, body {
   align-items: center;
 }
 .submit {
+  cursor: pointer;
   font-weight: bold;
   font-size: 120%;
   border-radius: 100px;
