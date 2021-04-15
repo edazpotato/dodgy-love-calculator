@@ -76,8 +76,10 @@ html, body {
   background-color: var(--text-on-primary-color);
   color: var(--primary-color);
   width: 90%;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 7px;
+  padding-bottom: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .inputs {
   display: flex;
